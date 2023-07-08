@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 4px 0;
+    background-color: rgb(88, 25, 148);
+    color: rgb(255, 255, 255);
+}
+
+header .container h1, nav,
+section .container h2{
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.logos h1{
+    font-family: 'Harry Potter', sans-serif;
+    margin-left: 24px;
+    font-weight: normal;
+
+}
+
+section .container h3{
+    font-family: 'Harry Potter', sans-serif;
+    font-weight: normal;
+}
+
+header, 
+section h2, p,
+input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li, a{
+    display: inline;
+    margin-left: 16px;
+    color: rgb(248, 242, 208);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: auto;
+    margin: 16px auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container img{
+    height: 400px;
+}
+
+.logos img, h4{
+    height: 45px;
+    margin-left: 24px;
+    padding: 1px;
+}
+
+.logos{
+    display: inline;
+    margin-right: 8px;
+}
+
+.logos li{
+    display: inline;
+}
+
+section .container .sobre, p, ul{
+    display: flex;
+    padding: 2px;
+    margin-left: 24px;
+}
+
+.sobre h2{
+    display: flex;
+    padding: 2px;
+    margin-left: 24px;
+}
+
+section .container h3{
+    margin-left: none;
+}
+
+section .contaiener .cont h2{
+    margin-right: 24px;
+}
+
+
+form input, textarea, button{
+    display: block;
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+}
+
+form textarea{
+    resize: none;
+    height: 100px;
+}
+
+form button{
+    background-color: rgb(88, 25, 148);
+    color: rgb(248, 242, 208);
+    border: none;
+    font-family: 'Harry Potter', sans-serif;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(173, 103, 238);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(173, 103, 238);
+}
+
+footer{
+    background-color: rgb(173, 103, 238);
+    color: rgb(248, 242, 208);
+    padding: 15px 0;
+}
